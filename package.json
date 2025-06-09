@@ -19,7 +19,6 @@
     "./*": "./dist/*"
   },
   "files": [
-    "package.json",
     "dist"
   ],
   "scripts": {
