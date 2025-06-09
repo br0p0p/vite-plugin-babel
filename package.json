@@ -24,8 +24,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "dev": "rollup -c rollup.config.ts --watch --configPlugin typescript",
-    "build": "rollup -c rollup.config.ts --configPlugin typescript",
-    "prepare": "npm run clean && npm run build"
+    "build": "rollup -c rollup.config.ts --configPlugin typescript"
   },
   "repository": {
     "type": "git",
